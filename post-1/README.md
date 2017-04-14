@@ -1,6 +1,5 @@
 ## Prerequisites
 * Docker
-* Node
 
 ## Running this example
 * `git clone https://github.com/ewilde/linkerd-examples.git`
