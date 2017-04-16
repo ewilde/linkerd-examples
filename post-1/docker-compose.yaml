@@ -5,7 +5,7 @@ services:
     ports:
       - "8500:8500"
   audit:
-    image: "node:7.9-alpine"
+    build: ./audit/
     command: ["node", "/usr/src/app/index.js"]
     ports:
       - "8100:8100"
